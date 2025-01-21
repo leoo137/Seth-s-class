@@ -10,25 +10,26 @@
         <meta name="viewport" content="width=device-width, initia"
         <title>Alice's site</title>
         <link rel="stylesheet" href="styles.css">
+        section {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #90CDCA;
+          height: 300px;
+        }
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            background: #ccc;
+            padding: 20px;
+        }
+        footer {
+          background-color: #c4bcb2;
+          padding: 10px;
+          color: white;
+        }
     </head>
-    nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-    article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #90CDCA;
-  height: 300px;
-    footer {
-  background-color: #c4bcb2;
-  padding: 10px;
-  color: white;
-}
     <body>
         <header>
             <h1 style="text-align:center;"> Welcome to Alice's site</h1>
@@ -44,8 +45,8 @@
         </section>
         <section> <img src="https://dev-snowit.ams3.digitaloceanspaces.com/uploads/2023/07/03111316/arrampicata-2.jpg" alt="Google.com" width="300" height="200"></section>
         <footer>
-              <p style="contacts:center;">Centered paragraph.</p>
-            <p style="follow-me-on-instagram:center;">Centered paragraph.</p>
+              <p style="text-align:center;">Contacts.</p>
+            <p style="text-align:center;">Follow me on instagram.</p>
         </footer>
     </body>
 </html>
